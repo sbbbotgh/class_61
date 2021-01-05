@@ -1,0 +1,131 @@
+body {
+    text-align: center;
+    margin: 0px;
+    padding-top: 800px;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    color: #EF959C;
+    bottom: 0;
+    opacity: 0.83;
+    background: linear-gradient(#FC60A8 0%, #F7F06D 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+.secwel {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: inherit;
+    font-weight: 300;
+}
+
+#span_name {
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: 'Yellowtail', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: 300;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-family: 'Yellowtail', cursive;
+}
+
+.line {
+    height: 6px;
+    background: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    text-align: center;
+    max-width: 450px;
+    font-size: 17px;
+    line-height: 1.3;
+    margin: auto;
+
+}
+
+.unem {
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    position: fixed;
+    z-index: 10;
+}
+
+.knil {
+    display: inline;
+    float: left;
+    color: cyan;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+.knil:hover {
+    background-color: deeppink;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+a {
+    color: cornsilk;
+    text-decoration: none;
+    text-shadow: 2px 2px gainboro;
+}
+
+.arti:hover {
+    color: chartreuse;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#writing a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: gold !important;
+}
+
+#contact {
+    background: green;
+}
+
+#contact iframe {
+    width: 100%;
+
+}
+
+.contact1 h3 {
+    display: inline;
+}
+
+.contact1 a {
+    color: mintcream;
+    text-shadow: none;
+}
